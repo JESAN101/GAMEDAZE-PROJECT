@@ -1,0 +1,562 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height:40px;
+    background-color: #FFA500;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo {
+    font-size: 30px;
+    font-family: cursive;
+    color:black;
+}
+.options{
+    height: 21.2px;
+}
+#search {
+    width:400px;
+}
+
+.cart{
+    height: 40px;
+    width:40px;
+    background-color: #785d2a;
+}
+.cart:hover{
+    background-color: green;
+    border:2px solid black; 
+}
+.login {
+    background-color: #785d2a;
+    transition : all 0s ease-in 0s;
+}
+.signup  {
+    background-color: #785d2a;
+    transition : all 0s ease-in 0s;
+}
+.second {
+    height:20px;
+    background-color:green;
+    border-bottom: 3px solid yellow;
+    display: flex;
+}
+.td{
+    background-color: green;
+    border:none;
+    transition : all 0s ease-in 0s;
+}
+.bs{
+    background-color: green;
+    margin-left: 50px;
+    border:none;
+    transition : all 0s ease-in 0s;
+}
+.hs{
+    background-color: green;
+    margin-left: 50px;
+    border:none;
+    transition : all 0s ease-in 0s;
+}
+.hs:hover{
+    background-color: orange;
+    border:2px solid black;
+}
+.bs:hover{
+    background-color: orange;
+    border:2px solid black;
+}
+.td:hover{
+    background-color: orange;
+    border:2px solid black;
+}
+.signup:hover{
+    background-color: green;
+    border:2px solid black;
+}
+.login:hover{
+    background-color: green;
+    border:2px solid black;
+}
+.background {
+    height:500px;
+    border:2px solid black;
+    background-size: cover;
+    border-bottom: 0px;
+    animation:slideshow 60s linear 0s infinite;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+@keyframes slideshow {
+    0% { background-image: url('image1.jpg'); }
+    25% { background-image: url('image2.jpg'); }
+    50% { background-image: url('image3.jpg'); }
+    75% { background-image: url('image4.jpg'); }
+    100% { background-image: url('image5.jpg'); }
+  }
+  .text{
+    color: blue;
+    font-size: 40px;
+    margin-top: 10px;
+    text-shadow: 5px 10px 15px red;
+    margin-bottom: 80px;
+    background-color: beige;
+    width:1440px;
+    display: flex;
+    justify-content: center;
+  }
+  #headingone{
+    background-image: url(background2.jpg);
+    background-size: cover;
+    color: black;
+    text-shadow: 3px 6px 9px blue;
+    padding-left: 10px;
+  }
+  /**container is trending**/
+  .trending{
+    display: flex;
+    justify-content: space-around;
+    background-image:url(keyboard.jpg);
+    background-size: cover;
+   }
+  .sale{
+    height:375px;
+    width:270px;
+    background-color: cyan;
+    box-shadow: 5px 10px 15px blue;
+  }
+  .sale:hover{
+    border:2px solid black;
+    height:390px;
+  }
+  #salebox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #headsetpic{
+    height:250px;
+    width:260px;
+    background-image: url(headset.jpg);
+    background-size: cover;
+  }
+  #gamingheadset{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+  #headsetprice{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+  #headsetdelprice{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #headsetdiscription{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #headsetbutton{
+    background-color: #785d2a;
+    color: cyne;
+    width:250px;
+  }
+  #headsetbutton:hover{
+    border: 2px solid black;
+    box-shadow: 3px 6px 9px black;
+  }
+  /*BOX2*/
+  #salebox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #laptop{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+  #laptoppic{
+    height:245px;
+    width:260px;
+    background-image: url(laptop3.jpg);
+    background-size: cover;
+  }
+  #laptopprice{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+  #laptopdelprice{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #laptopdiscription{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #laptopbutton{
+    background-color: #785d2a;
+    color: cyne;
+    width:250px;
+  }
+  #laptopbutton:hover{
+    border: 2px solid black;
+    box-shadow: 3px 6px 9px black;
+  }
+  /**salebox3**/
+  #salebox3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #ps5{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+  #ps5pic{
+    height:245px;
+    width:260px;
+    background-image: url('ps5.jpg');
+    background-size: cover;
+  }
+  #ps5price{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+  #ps5delprice{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #ps5discription{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #ps5button{
+    background-color: #785d2a;
+    color: cyne;
+    width:250px;
+  }
+  #ps5button:hover{
+    border: 2px solid black;
+    box-shadow: 3px 6px 9px black;
+  }
+  /*salebox4*/
+  #salebox4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #pc{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+  #pcpic{
+    height:245px;
+    width:260px;
+    background-image: url('pc.jpg');
+    background-size: cover;
+  }
+  #pcprice{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+  #pcdelprice{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #pcdiscription{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #pcbutton{
+    background-color: #785d2a;
+    color: cyne;
+    width:250px;
+  }
+  #pcbutton:hover{
+    border: 2px solid black;
+    box-shadow: 3px 6px 9px black;
+  }
+  /*salebox5*/
+  #salebox5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #allset{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+  #allsetpic{
+    height:245px;
+    width:260px;
+    background-image: url('allset.jpg');
+    background-size: cover;
+  }
+  #allsetprice{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+  #allsetdelprice{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #allsetdiscription{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #allsetbutton{
+    background-color: #785d2a;
+    color: cyne;
+    width:250px;
+  }
+  #allsetbutton:hover{
+    border: 2px solid black;
+    box-shadow: 3px 6px 9px black;
+  }
+  /**second one**/
+  #secondone{
+    background-image: url(background2.jpg);
+    background-size: cover;
+    color: black;
+    text-shadow: 3px 6px 9px blue;
+    padding-left: 10px;
+  }
+  .latestarrival{
+    display: flex;
+    justify-content: space-around;
+    background-image:url('keyboard.jpg');
+    background-size:cover;
+   }
+  .sale2{
+    height:375px;
+    width:270px;
+    background-color: cyan;
+    box-shadow: 5px 10px 15px blue;
+  }
+  .sale2:hover{
+    border:2px solid black;
+    height:390px;
+  }
+
+  #salebox6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #desktop{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+  #desktoppic{
+    height:245px;
+    width:260px;
+    background-image: url('desktop4\ \(2\).jpg');
+    background-size: cover;
+  }
+  #desktopprice{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+  #desktopdiscription{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #desktopbutton{
+    background-color: #785d2a;
+    color: cyne;
+    width:250px;
+  }
+  #desktopbutton:hover{
+    border: 2px solid black;
+    box-shadow: 3px 6px 9px black;
+  }
+  /**box7**/
+  #salebox7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #controller{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+  #controllerpic{
+    height:245px;
+    width:260px;
+    background-image: url('xbox3.jpg');
+    background-size: cover;
+  }
+  #controllerprice{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+  #controllerdiscription{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #controllerbutton{
+    background-color: #785d2a;
+    color: cyne;
+    width:250px;
+  }
+  #controllerbutton:hover{
+    border: 2px solid black;
+    box-shadow: 3px 6px 9px black;
+  }
+  /**box8**/
+  #salebox8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #mkeyboard{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+  #mkeyboardpic{
+    height:245px;
+    width:260px;
+    background-image: url('mkeyboard3.jpg');
+    background-size: cover;
+  }
+  #mkeyboardprice{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+  #mkeyboarddiscription{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #mkeyboardbutton{
+    background-color: #785d2a;
+    color: cyne;
+    width:250px;
+  }
+  #mkeyboardbutton:hover{
+    border: 2px solid black;
+    box-shadow: 3px 6px 9px black;
+  }
+   /**box9**/
+   #salebox9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #mike{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+  #mikepic{
+    height:245px;
+    width:260px;
+    background-image: url('mike2.jpg');
+    background-size: cover;
+  }
+  #mikeprice{
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+  #mikediscription{
+    align-self: flex-start;
+    margin-left: 3px;
+  }
+  #mikebutton{
+    background-color: #785d2a;
+    color: cyne;
+    width:250px;
+  }
+  #mikebutton:hover{
+    border: 2px solid black;
+    box-shadow: 3px 6px 9px black;
+  }
+    /**box10**/
+    #salebox10{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #chair{
+      align-self: flex-start;
+      margin-left: 3px;
+      margin-bottom: 5px;
+    }
+    #chairpic{
+      height:245px;
+      width:260px;
+      background-image: url('chair2.jpg');
+      background-size: cover;
+    }
+    #chairprice{
+      align-self: flex-start;
+      margin-left: 3px;
+      margin-top: 3px;
+    }
+    #chairdiscription{
+      align-self: flex-start;
+      margin-left: 3px;
+    }
+    #chairbutton{
+      background-color: #785d2a;
+      color: cyne;
+      width:250px;
+    }
+    #chairbutton:hover{
+      border: 2px solid black;
+      box-shadow: 3px 6px 9px black;
+    }
+    /**footer**/
+    .footer{
+      height: 300px;
+      background-image: url('footer.jpg');
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #seemore{
+      height:50px;
+      width:400px;
+      margin-top: 60px;
+      border-radius: 10%;
+      font-size: 25px;
+      background-image: url('image1.jpg');
+      background-size: cover;
+      color:cyan;
+    }
+    #seemore:hover{
+      border: 2px solid green;
+      box-shadow: 3px 6px 9px cyan;
+    }
